@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="1"
+              android:text="Facebook"
+              android:textSize="24dp"
+              android:textColor="#FFF"
+              android:background="#3b5998"
+              android:textAlignment="center"/>
+
+    <ImageView android:layout_width="match_parent"
+               android:layout_height="0dp"
+               android:layout_weight="4"
+               android:src="@drawable/ic_persona"
+            android:layout_gravity="center"/>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="0dp"
+                  android:layout_weight="2"
+                  android:layout_margin="4dp"
+                    android:orientation="vertical"
+            >
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="1"
+                      android:orientation="horizontal"
+
+        >
+
+            <TextView android:layout_width="0dp"
+                      android:layout_height="match_parent"
+                      android:text="Nombre"
+                      android:textSize="20dp"
+                      android:layout_weight="1"
+                      android:gravity="bottom"
+                      android:textColor="#000"/>
+
+            <TextView android:layout_width="0dp"
+                      android:layout_height="match_parent"
+                      android:text="Apellido"
+                      android:layout_weight="1"
+                      android:gravity="bottom"
+                        android:textSize="20dp"
+                      android:textColor="#000"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="2"
+                      android:orientation="horizontal"
+                      >
+
+            <EditText android:layout_width="0dp"
+                      android:layout_height="match_parent"
+                      android:background="#C8C8C8"
+                      android:layout_marginRight="4dp"
+                      android:layout_weight="1"
+                      android:textColor="#000"/>
+
+            <EditText android:layout_width="0dp"
+                      android:layout_height="match_parent"
+                      android:background="#C8C8C8"
+                      android:layout_marginLeft="4dp"
+                      android:layout_weight="1"
+
+                      android:textColor="#000"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="0.5"
+              android:text="Correo"
+              android:textSize="20dp"
+              android:textColor="#000"
+              android:layout_marginLeft="8dp"
+
+            />
+
+    <EditText android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="1"
+              android:background="#C8C8C8"
+
+              android:layout_margin="8dp"
+    />
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="0.5"
+                android:text="Contraseña"
+              android:layout_marginLeft="8dp"
+              android:textColor="#000"
+                android:textSize="20dp"/>
+
+    <EditText android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="1"
+                android:inputType="textPassword"
+            android:background="#C8C8C8"
+              android:layout_margin="8dp"
+           />
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="0.5"
+              android:text="Teléfono"
+              android:layout_marginLeft="8dp"
+              android:textColor="#000"
+              android:textSize="20dp"/>
+
+    <EditText android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="1"
+              android:inputType="number"
+              android:background="#C8C8C8"
+              android:layout_margin="8dp"
+              />
+
+    <Button android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="8dp"
+            android:text="REGISTRAR"
+            android:textSize="20dp"
+            android:textColor="#FFF"
+            android:background="#3b5998"/>
+
+
+
+</LinearLayout>
